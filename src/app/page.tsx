@@ -167,7 +167,7 @@ export default function HomePage() {
           <div className="header-icon">📞</div>
           <span className="header-title">Phone<span>Book</span></span>
         </div>
-        <span className="header-meta">Next.js · MySQL</span>
+        <span className="header-meta">v1.0</span>
       </header>
 
       {/* MAIN */}
@@ -389,7 +389,7 @@ export default function HomePage() {
 
       {/* FOOTER */}
       <footer className="footer">
-        <span>© 2024 PhoneBook App</span>
+        <span>© {new Date().getFullYear()} PhoneBook App</span>
         <div className="footer-stack">
           <span className="stack-badge">Next.js 14</span>
           <span className="stack-badge">MySQL</span>
